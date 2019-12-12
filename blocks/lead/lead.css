@@ -1,0 +1,26 @@
+@import url(__title/lead__title.css);
+@import url(__subtitle/lead__subtitle.css);
+@import url(__figcaption/lead__figcaption.css);
+@import url(__image/lead__image.css);
+
+/* Общие стили для блока */
+.lead {
+    font-family: 'Inter', Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    max-width: 68%;
+    margin: 27px auto 0;
+}
+.lead__figure {
+    margin: 0 auto;
+}
+@media (max-width: 1024px) {
+    .lead {
+        max-width: 90%;
+    }
+}
+@media (max-width: 768px) {
+    .lead {
+        max-width: 100%;
+    }
+}

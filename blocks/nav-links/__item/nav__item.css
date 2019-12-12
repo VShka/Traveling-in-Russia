@@ -1,0 +1,8 @@
+@media (max-width: 425px) {
+    .nav__item {
+        margin-bottom: 13px;
+    }
+    .nav__item:last-of-type {
+        margin-bottom: 0;
+    }
+}

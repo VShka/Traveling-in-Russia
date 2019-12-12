@@ -1,0 +1,11 @@
+@import url(__item/emblem__item.css);
+@import url(__city/emblem__city.css);
+
+/* стили для контейнера с гербами */
+.emblem__container {
+    display: grid;
+    grid-template-columns: 203px 195px 195px 200px 197px;
+    grid-column-gap: 47px;
+    text-align: center;
+    margin-top: 72px;
+}

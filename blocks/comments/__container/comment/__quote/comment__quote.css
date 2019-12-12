@@ -1,0 +1,29 @@
+/* стилизация комента */
+.comment__quote {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    max-width: 382px;
+    color: #FFFFFF;
+    margin: 35px 0 12px;
+}
+@media (max-width: 1024px) {
+    .comment__quote {
+        max-width: 293px;
+    }
+}
+@media (max-width: 768px) {
+    .comment__quote {
+        font-size: 16px;
+        line-height: 23px;
+        order: 3;
+        max-width: 382px;
+        text-align: left;
+        margin: 19px auto 0;
+    }
+}
+@media (max-width: 425px) {
+    .comment__quote {
+        max-width: 89%;
+    }
+}

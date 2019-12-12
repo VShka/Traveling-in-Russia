@@ -1,0 +1,16 @@
+@import url(__title/emblem__title.css);
+@import url(__container/emblem__container.css);
+
+/* Общие стили для страницы */
+.emblem {
+    font-family: 'Inter', Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 82%;
+    margin: 83px auto 0;
+}
+@media (max-width: 1280px) {
+    .emblem {
+        display: none;
+    }
+}

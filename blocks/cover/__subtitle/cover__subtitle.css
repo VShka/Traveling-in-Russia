@@ -1,0 +1,22 @@
+/* стили подзаголовка */
+.cover__subtitle {
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    width: 35%;
+    margin-bottom: 43px;
+}
+@media (max-width: 768px) {
+    .cover__subtitle {
+        width: 50%;
+        margin-bottom: 43px;
+    }
+}
+@media (max-width: 425px) {
+    .cover__subtitle {
+        font-size: 14px;
+        line-height: 17px;
+        width: 64%;
+        margin-bottom: 30px;
+    }
+}

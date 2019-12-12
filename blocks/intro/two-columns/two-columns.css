@@ -1,0 +1,26 @@
+@import url(./__paragraph/two-columns__paragraph.css);
+@import url(./__subscription/two-columns__subscription.css);
+
+/* Общие стили для блока */
+.two-columns {
+    display: grid;
+    grid-template-columns: 70% 150px;
+    grid-column-gap: 14px;
+}
+@media (max-width: 1024px) {
+    .two-columns {
+        grid-template-columns: 75%;
+        margin-top: 20px;
+    }
+}
+@media (max-width: 768px) {
+    .two-columns {
+        grid-template-columns: 99%;
+    }
+}
+@media (max-width: 425px) {
+    .two-columns {
+        grid-template-columns: 93%;
+        margin-top: 13px;
+    }
+}

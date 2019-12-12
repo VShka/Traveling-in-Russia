@@ -1,0 +1,6 @@
+.additional__item_novorosiysk {
+    background: linear-gradient(to left, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../../../../../images/additional/novorosiisk.jpg);
+}
+.additional__item_novorosiysk:hover {
+    background: linear-gradient(to left, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../../../../../images/additional/novorosiisk.jpg);
+}

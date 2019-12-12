@@ -1,0 +1,16 @@
+@import url(__image/comment__image.css);
+@import url(__quote/comment__quote.css);
+@import url(__author/comment__author.css);
+
+@media (max-width: 768px) {
+    .comment {
+        margin: 0 auto;
+    }
+}
+@media (max-width: 768px) {
+    .comment {
+        display: grid;
+        justify-items: center;
+        margin-bottom: 46px;
+    }
+}

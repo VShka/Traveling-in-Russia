@@ -1,0 +1,9 @@
+/* стили для заголовка */
+.emblem__title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 46px;
+    width: 35%;
+    margin: 0;
+}

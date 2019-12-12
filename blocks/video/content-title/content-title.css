@@ -1,0 +1,23 @@
+.content-title {
+    font-family: 'Inter', Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 72px;
+    line-height: 78px;
+    text-align: center;
+    width: 68%;
+}
+@media (max-width: 768px) {
+    .content-title {
+        font-size: 42px;
+        line-height: 46px;
+        width: 55%;
+    }
+}
+@media (max-width: 425px) {
+    .content-title {
+        font-size: 32px;
+        line-height: 35px;
+        width: 75%;
+    }
+}

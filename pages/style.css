@@ -1,0 +1,60 @@
+@import url(../vendor/normalize.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/logo/logo.css);
+@import url(../fonts/fonts.css);
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/section-subtitle/section-subtitle.css);
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/places/places.css);
+@import url(../blocks/video/video.css);
+@import url(../blocks/additional/additional.css);
+@import url(../blocks/comments/comments.css);
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/emblem/emblem.css);
+@import url(../blocks/barentsburg/barentsburg.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/nav-links/nav-links.css);
+
+/* Общие стили для страницы */
+.page-wrapper {
+    background-color: #2A2C2F;
+}
+.page {
+    width: 1440px;
+    font-family: 'Inter', Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0 auto;
+    background-color: #2A2C2F;
+}
+
+/* Эффект затемнения ссылок */
+.link_blackout {
+    transition: opacity .1s ease-out .1s;
+}
+.link_blackout:hover {
+    opacity: .7;
+}
+
+@media (max-width: 1280px) {
+    .page {
+        width: 1280px;
+    }
+}
+@media (max-width: 1024px) {
+    .page {
+        width: 1024px;
+    }
+}
+@media (max-width: 768px) {
+    .page {
+        width: 768px;
+    }
+}
+@media (max-width: 425px) {
+    .page {
+        width: 425px;
+    }
+}

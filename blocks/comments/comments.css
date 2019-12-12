@@ -1,0 +1,16 @@
+@import url(__container/comments__container.css);
+@import url(__title/comments__title.css);
+
+/* Общие стили блока */
+.comments {
+    font-family: 'Inter', Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 82%;
+    margin: 93px auto 0;
+}
+@media (max-width: 1024px) {
+    .comments {
+        width: 90%;
+    }
+}

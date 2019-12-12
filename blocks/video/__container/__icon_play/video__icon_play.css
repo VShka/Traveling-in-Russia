@@ -1,0 +1,9 @@
+/* кнопка play */
+.video__icon_play {
+    margin: 30px 0 0 30px;
+}
+@media (max-width: 768px) {
+    .video__icon_play {
+        margin: 19px 0 0 24px;
+    }
+}

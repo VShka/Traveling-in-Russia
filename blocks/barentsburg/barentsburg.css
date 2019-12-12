@@ -1,0 +1,19 @@
+@import url(__title/barentsburg__title.css);
+@import url(__coord/barentsburg__coord.css);
+@import url(__map/barentsburg__map.css);
+@import url(__text-container/barentsburg__text-container.css);
+@import url(__website/barentsburg__website.css);
+
+/* Общие стили блока */
+.barentsburg {
+    font-family: 'Inter', Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 82%;
+    margin: 42px auto 0;
+}
+@media (max-width: 1280px) {
+    .barentsburg {
+        display: none;
+    }
+}

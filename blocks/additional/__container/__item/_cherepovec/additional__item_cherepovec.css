@@ -1,0 +1,7 @@
+.additional__item_cherepovec {
+    background: linear-gradient(to left, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../../../../../images/additional/cherepovec.jpg);
+}
+
+.additional__item_cherepovec:hover {
+    background: linear-gradient(to left, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../../../../../images/additional/cherepovec.jpg);
+}

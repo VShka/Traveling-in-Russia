@@ -1,0 +1,14 @@
+/* стили для подписи картинки */
+.lead__figcaption {
+    font-size: 10px;
+    line-height: 12px;
+    color: #fff;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    margin-top: 7px;
+}
+@media (max-width: 768px) {
+    .lead__figcaption {
+        margin-left: 25px;
+    }
+}

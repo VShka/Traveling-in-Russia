@@ -1,0 +1,10 @@
+/* стилизация фото комментатора */
+.comment__image {
+    width: 97px;
+    border-radius: 50%;
+}
+@media (max-width: 768px) {
+    .comment__image {
+        order: 1;
+    }
+}

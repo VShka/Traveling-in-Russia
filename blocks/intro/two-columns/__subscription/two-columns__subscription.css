@@ -1,0 +1,16 @@
+@import url(__value/two-columns__value.css);
+
+/* Стили для автора статьи */
+.two-columns__subscription {
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 16px;
+    color: #fff;
+    width: 150px;
+    margin-top: 17px;
+}
+@media (max-width: 1280px) {
+    .two-columns__subscription {
+        display: none;
+    }
+}

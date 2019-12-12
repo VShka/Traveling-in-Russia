@@ -1,0 +1,10 @@
+@import url(__item/additional__item.css);
+@import url(__title/additional__title.css);
+@import url(__text/additional__text.css);
+
+.additional__container {
+    display: grid;
+    grid-template-columns: repeat(4, 284px);
+    grid-column-gap: 15px;
+    margin-top: 64px;
+}

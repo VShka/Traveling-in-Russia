@@ -1,0 +1,27 @@
+/* стилизация ссылок в навигации */
+.nav__link {
+    list-style-type: none;
+    font-size: 24px;
+    line-height: 41px;
+    color: #FFFFFF;
+    padding-left: 0;
+    width: 662px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+}
+@media (max-width: 768px) {
+    .nav__link {
+        font-size: 16px;
+        line-height: 27px;
+        width: 465px;
+    }
+}
+@media (max-width: 425px) {
+    .nav__link {
+        display: block;
+        width: 100%;
+        font-size: 24px;
+        line-height: 41px;
+    }
+}

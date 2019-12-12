@@ -1,0 +1,34 @@
+@import url(__title/place__title.css);
+@import url(__paragraph/place__paragraph.css);
+@import url(__text/place__text.css);
+@import url(__website/place__website.css);
+@import url(__image/place__image.css);
+
+/* Общие стили для блока с описанием */
+.place {
+    display: grid;
+    grid-template-columns: 452px 484px;
+    grid-gap: 62px 48px;
+    margin: 0 auto;
+    width: 68%;
+}
+@media (max-width: 1024px) {
+    .place {
+        grid-template-columns: 452px 456px;
+        grid-gap: 48px 17px;
+        width: 90%;
+    }
+}
+@media (max-width: 768px) {
+    .place {
+        grid-template-columns: 340px 349px;
+        grid-gap: 40px 28px;
+        width: 94%;
+    }
+}
+@media (max-width: 425px) {
+    .place {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+}

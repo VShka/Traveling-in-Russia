@@ -1,0 +1,12 @@
+/* Стили для текста статьи */
+.two-columns__paragraph {
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+}
+@media (max-width: 425px) {
+    .two-columns__paragraph {
+        font-size: 16px;
+        line-height: 27px;
+    }
+}

@@ -1,0 +1,18 @@
+/* Стилизация параграфа  */
+.place__paragraph {
+    font-size: 18px;
+    line-height: 29px;
+    color: #fff;
+}
+@media (max-width: 768px) {
+    .place__paragraph {
+        font-size: 16px;
+        line-height: 27px;
+    }
+}
+@media (max-width: 425px) {
+    .place__paragraph {
+        margin-left: 30px;
+        width: 86%;
+    }
+}

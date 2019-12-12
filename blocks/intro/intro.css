@@ -1,0 +1,32 @@
+@import url(__title/intro__title.css);
+@import url(__subtitle/intro__subtitle.css);
+@import url(two-columns/two-columns.css);
+@import url(__list/intro__list.css);
+@import url(__list-value/intro__list-value.css);
+
+/* Общие стили для блока */
+.intro {
+    font-family: 'Inter', Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    max-width: 68%;
+    margin: 81px auto 0;
+}
+@media (max-width: 1024px) {
+    .intro {
+        max-width: 90%;
+        margin: 122px auto 0;
+    }
+}
+@media (max-width: 768px) {
+    .intro {
+        max-width: 94%;
+        margin: 74px auto 0;
+    }
+}
+@media (max-width: 425px) {
+    .intro {
+        max-width: 86%;
+        margin: 33px auto 0;
+    }
+}

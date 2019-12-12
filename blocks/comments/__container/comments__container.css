@@ -1,0 +1,29 @@
+@import url(comment/comment.css);
+
+/* Общие стили для контейнера с комментами */
+.comments__container {
+    display: grid;
+    grid-template-columns: repeat(3, 401px);
+    margin-top: 61px;
+}
+@media (max-width: 1280px) {
+    .comments__container {
+        grid-template-columns: repeat(3, 388px);
+    }
+}
+@media (max-width: 1024px) {
+    .comments__container {
+        grid-template-columns: repeat(3, 313px);
+    }
+}
+@media (max-width: 768px) {
+    .comments__container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+}
+@media (max-width: 425px) {
+    .comments__container {
+        margin-top: 42px;
+    }
+}

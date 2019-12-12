@@ -1,0 +1,13 @@
+@import url(_novorossiysk/additional__item_novorossiysk.css);
+@import url(_arakulskiy/additional__item_arakulskiy.css);
+@import url(_cherepovec/additional__item_cherepovec.css);
+@import url(_nikola/additional__item_nikola.css);
+
+.additional__item {
+    width: 284px;
+    min-height: 330px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

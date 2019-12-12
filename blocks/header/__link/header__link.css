@@ -1,0 +1,7 @@
+.header__link {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 16px;
+    align-items: center;
+    list-style-type: none;
+}

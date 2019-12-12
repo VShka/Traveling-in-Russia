@@ -1,0 +1,10 @@
+@media (max-width: 768px) {
+    .place__title_adaptive {
+        width: 50%;
+    }
+}
+@media (max-width: 425px) {
+    .place__title_adaptive {
+        width: 90%;
+    }
+}

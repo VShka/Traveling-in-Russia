@@ -1,0 +1,12 @@
+@import url(__text/barentsburg__text.css);
+
+/* стили для контейнера с текстом описания и ссылкой */
+.barentsburg__text-container {
+    display: grid;
+    grid-template-columns: 380px 282px;
+    grid-column-gap: 122px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 42px;
+}

@@ -1,0 +1,22 @@
+/* Стили для списка статистики */
+.intro__list {
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 20px;
+    list-style-type: none;
+    padding-left: 0;
+    color: #fff;
+    margin-top: 9px;
+}
+@media (max-width: 1024px) {
+    .intro__list {
+        margin-top: 5px;
+    }
+}
+@media (max-width: 425px) {
+    .intro__list {
+        font-size: 12px;
+        line-height: 19px;
+        margin-top: 16px;
+    }
+}

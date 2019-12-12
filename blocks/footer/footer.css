@@ -1,0 +1,31 @@
+@import url(__author/footer__author.css);
+
+/* Общие стили подвала */
+.footer {
+    font-family: 'Inter', Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 82%;
+    margin: 157px auto 0;
+    padding-bottom: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 1024px) {
+    .footer {
+        width: 90%;
+    }
+}
+@media (max-width: 768px) {
+    .footer {
+        margin: 100px auto 0;
+        width: 94%;
+    }
+}
+@media (max-width: 425px) {
+    .footer {
+        display: block;
+        margin: 61px auto 0;
+        width: 83%;
+    }
+}

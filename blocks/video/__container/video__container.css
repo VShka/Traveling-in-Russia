@@ -1,0 +1,35 @@
+@import url(__title/video__title.css);
+@import url(__subtitle/video__subtitle.css);
+@import url(__item/video__item.css);
+@import url(__duration/video__duration.css);
+@import url(__icon_play/video__icon_play.css);
+@import url(__info/video__info.css);
+
+/* Общие стили для контейнера с видео */
+.video__container {
+    font-family: 'Inter', Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: flex;
+    margin: 63px auto 0;
+    width: 82%;
+}
+@media (max-width: 1024px) {
+    .video__container {
+        width: 90%;
+    }
+}
+@media (max-width: 768px) {
+    .video__container {
+        width: 94%;
+        margin: 44px auto 0;
+    }
+}
+@media (max-width: 425px) {
+    .video__container {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        margin: 24px auto 0;
+    }
+}

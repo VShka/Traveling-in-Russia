@@ -1,0 +1,13 @@
+@import url(_current/header__link-item_current.css);
+
+.header__link-item {
+    font-size: 24px;
+    line-height: 23px;
+    color: #fff;
+}
+@media (max-width: 425px) {
+    .header__link-item {
+        font-size: 18px;
+        line-height: 17px;
+    }
+}
